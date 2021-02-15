@@ -78,6 +78,7 @@
     margin: 0 1rem;
     max-width: 300px;
     box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+    background-color:  rgb(46, 155, 241);
   }
   
   ul {
@@ -114,4 +115,53 @@
       align-items: center;
       width: 100%;
     }
+  }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(73,79,82);
+    color: white;
+  }
+  .nav-line{
+    width: 40%;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-right: 70%;
+  }
+  .foody{
+    
+    font-size: 40px;
+    padding-right: 3%;
+    padding-top: 1%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  .foody:hover{
+    color: rgb(98, 160, 6);
+  }
+  .path{
+    background-color:  rgb(73,79,82);
+  }
+  .home{
+    padding-top: 5%;
+    color: white;
+    }
+  .appHeader{
+    font-size: 70px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  .homeText{
+    font-size: 30px;
+    font-family: DejaVu Sans Mono, monospace;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .health{
+    width: 70%;
+    padding-left:15% ;
+    padding-top: 2%;
+    height:320px
   }

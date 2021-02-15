@@ -1,1 +1,22 @@
-
+body{
+    background-color: rgb(41, 151, 241);
+}
+.name{
+    border: 3px rgb(201, 195, 195) solid;
+    font-size: 30px; 
+    text-align: center;
+    background-color: rgb(21, 212, 116);
+    color: rgb(204, 127, 12);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    
+}
+.macros li{
+    color:rgb(76, 12, 136);
+    font-size: 20px;
+}
+.foodName{
+    background-color: white;
+    color: rgb(95, 92, 88);
+    border: 2px #ccc solid;
+}
